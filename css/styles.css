@@ -66,7 +66,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  background-color: rgb(27, 25, 36);
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -159,12 +159,12 @@ sup {
 }
 
 a {
-  color: #bd5d38;
+  color: #6038BD;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #824027;
+  color: #3c2768;
   text-decoration: underline;
 }
 
@@ -364,7 +364,7 @@ h1, h2, h3, h4, h5, h6,
   font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   line-height: 1.2;
-  color: #343a40;
+  color: #55585a;
 }
 
 h1, .h1 {
@@ -3744,7 +3744,7 @@ input[type=button].btn-block {
   width: 1rem;
   height: 1rem;
   margin-top: -0.25rem;
-  background-color: #386dbd;
+  background-color: #bd5d38;
   border: 0;
   border-radius: 1rem;
   -webkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -3926,7 +3926,7 @@ input[type=button].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #bd5d38;
+  background-color: #38bd47;
 }
 
 .nav-fill > .nav-link,
@@ -6075,13 +6075,13 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #bd5d38 !important;
+  background-image: linear-gradient(180deg, rgba(35,3,64,0.8813725319229254) 0%, rgba(36,9,121,0.8813725319229254) 35%, rgba(96,0,255,0.8757702910265669) 100%), url("../assets/img/sidebar.jpeg") !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #964a2c !important;
+  background-color: #58962c !important;
 }
 
 .bg-secondary {
@@ -9777,11 +9777,11 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #bd5d38 !important;
+  color: #6038bd !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
-  color: #824027 !important;
+  color: #6038bd !important;
 }
 
 .text-secondary {
@@ -9981,7 +9981,7 @@ h3 {
 }
 body {
   padding-top: 3.375rem;
-  color: #6c757d;
+  color: #ffffff;
 }
 
 @media (min-width: 992px) {
@@ -10021,7 +10021,7 @@ p.lead {
   text-transform: uppercase;
 }
 #sideNav .navbar-toggler:focus {
-  outline-color: #025061;
+  outline-color: #6ec1d4;
 }
 
 @media (min-width: 992px) {
@@ -10043,7 +10043,8 @@ p.lead {
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
     max-height: 10rem;
-    border: 0.5rem solid rgba(5, 33, 247, 0.2);
+    border: 0.5rem solid rgba(247, 61, 5, 0.309);
+    
   }
   #sideNav .navbar-collapse {
     display: flex;
@@ -10079,7 +10080,7 @@ p.lead {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color: #385ebd;
+  background-color: #6038bd;
 }
 
 .dev-icons {
